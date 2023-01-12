@@ -1,0 +1,157 @@
+/* panel */
+#panel {
+    position:relative; 
+    display:block; 
+    height:300px; border:10px solid #696969; 
+    padding:0; 
+    margin:0 10px 5px 10px; 
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#timer {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#capslock {
+    display:block;
+    font-size:20px; 
+    color:#ff0000; 
+    margin-right: 30px;
+    text-align: right;    
+}
+
+#subject {
+    display:block; 
+    font-size:30px; 
+    color:#0000ff; 
+    margin-top: 30px;
+    word-wrap:break-word;
+    text-align: center;
+}
+#input {
+    display:block; 
+    font-size:30px; 
+    line-height:36px; 
+    margin:15px auto 0; 
+    color:#000000; 
+    width:65%; 
+    word-wrap:break-word;
+    text-align: center;
+}
+
+/* board */
+#board {
+    position:relative; 
+    display:block; 
+    height:380px; border:10px solid #696969; 
+    padding:0; 
+    margin:0 10px 5px 10px; 
+    background-color:#222222; 
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* keyboard */
+#keyboard {
+    width:100%; 
+    border-spacing:4px;
+}
+
+#keyboard .key {
+    position:relative; 
+    height:25px;
+}
+#keyboard .col1 {
+    width:3.33%;
+}
+#keyboard .col2 {
+    width:6.66%;
+}
+#keyboard .col3 {
+    width:9.99%;
+}
+#keyboard .col4 {
+    width:13.33%;
+}
+#keyboard .col5 {
+    width:16.66%;
+}
+#keyboard .col6 {
+    width:19.99%;
+}
+#keyboard .col7 {
+    width:23.33%;
+}
+#keyboard .col11 {
+    width:36.66%;
+}
+#keyboard .col30 {
+    width:99.99%;
+}
+#keyboard .table {
+    position:relative; 
+    height:25px; 
+    font-size:14px; 
+    line-height:25px; 
+    text-align:center; 
+    vertical-align:middle; 
+    background-color:#ffffff; 
+    color:0000000; 
+    font-family:'Arial'; 
+    font-weight:bold;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    border-radius:5px;
+}
+#keyboard .subkey {
+    position:absolute; 
+    top:3px; 
+    right:5px; 
+    line-height:12.5px; 
+    height:12px; 
+    font-size:14px;
+}
+#keyboard .sub {
+    font-size:11px; 
+    line-height:37.5px;
+}
+#keyboard .row2 {
+    height:56px;
+}
+
+#keyboard .col {
+    display:block; 
+    float:left; 
+    margin:0 0.3% 3px 0.3%; 
+    width:5.28%; 
+    height:20px; 
+    font-size:14px; 
+    line-height:20px; 
+    text-align:center; 
+    background-color:#ffffff; 
+    color:0000000; 
+    font-family:'Arial'; 
+    font-weight: bold;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    border-radius:5px;
+}
