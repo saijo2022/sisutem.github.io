@@ -1,4 +1,30 @@
 // ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+// breif : 指定した秒数停止
+// note  :
+// ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+function sleep(waitSec, callbackFunc) {
+ 
+  var spanedSec = 0;
+ 
+  var waitFunc = function () {
+ 
+      spanedSec++;
+ 
+      if (spanedSec >= waitSec) {
+          if (callbackFunc) callbackFunc();
+          return;
+      }
+ 
+      clearTimeout(id);
+      id = setTimeout(waitFunc, 1000);
+  
+  };
+ 
+  var id = setTimeout(waitFunc, 1000);
+ 
+}
+
+// ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
 // breif : 指定したファイルを読み込んで配列を返す。
 // note  : 改行で区切る。
 // ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
